@@ -31,7 +31,7 @@ const Person = ({navigation, route}) => {
       <View style={styles.container}>
         <Image
           source={{
-            uri: person.image,
+            uri: person.image + person.id,
           }}
           style={styles.img}
         />
